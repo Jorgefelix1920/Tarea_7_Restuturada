@@ -8,8 +8,8 @@
     <!-- Estilos CSS-->
     <link rel="stylesheet" href="../css/styles.css">
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
-    <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="../css/signin.css" rel="stylesheet">
+    <link href="assets/dist/css/bootstrap.css" rel="stylesheet">
+    <link href="css/signin.css" rel="stylesheet">
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
     <!-- Bootstrap core CSS -->
     <title>New Task 7</title>

@@ -20,11 +20,10 @@ include 'pages/header.php'; ?>
         <input type="password" id="inputPassword" class="form-control" placeholder="Password" required>
         <div class="checkbox mb-3">
             <label>
-                <input type="checkbox" value="remember-me">Recordar Usuario 
+                <input type="checkbox" value="remember-me"> Recordar Usuario 
             </label>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
-        <p class="mt-5 mb-3 text-muted">&copy; 2017-2020</p>
     </form>
 
 
