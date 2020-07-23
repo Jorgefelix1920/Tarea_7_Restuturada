@@ -8,7 +8,7 @@
 <html lang="en">
 <?php
 // llama el header
-include 'pages/header.php'; ?>
+include ("../pages/header.php"); ?>
 
 <body class="text-center">
     <form class="form-signin">
@@ -25,15 +25,8 @@ include 'pages/header.php'; ?>
         </div>
         <button class="btn btn-lg btn-primary btn-block" type="submit">Sign in</button>
     </form>
-
-
-
-
-
-
     <?php
     // llama el footer
-    include('pages/footer.php'); ?>
-</body>
-
-</html>
+    include("../pages/footer.php"); ?>
+    
+    </body>
