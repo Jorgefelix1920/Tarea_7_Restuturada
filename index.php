@@ -5,7 +5,9 @@
  *  Fecha:      23/07/2020
  *  Funcion:    Corrección de tarea 7 de luego de verificar que la misma no cumplía con lo solicitado por el maestro 
 */
-include ("pages/header.php");?>
+include ("pages/header.php");
+header('location:include/sign-in.php');
+?>
 
 <main role="main">
 

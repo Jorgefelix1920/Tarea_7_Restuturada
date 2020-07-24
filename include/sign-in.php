@@ -27,6 +27,6 @@ include ("../pages/header.php"); ?>
     </form>
     <?php
     // llama el footer
-    include("../pages/footer.php"); ?>
+    //include("../pages/footer.php"); ?>
     
     </body>

@@ -15,7 +15,6 @@
     
     <!-- hago referencia dos veces para que me llame simpre el archivo-->
     <link href="../assets/dist/css/bootstrap.css" rel="stylesheet">
-    <link href="../css/signin.css" rel="stylesheet">
     <link href="../css/album.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
 
@@ -24,6 +23,7 @@
     <link rel="canonical" href="https://getbootstrap.com/docs/4.5/examples/sign-in/">
     <!-- Bootstrap core CSS -->
     <title>New Task 7</title>
+    
 </head>
 <body>
     
