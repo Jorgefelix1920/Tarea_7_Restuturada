@@ -1,6 +1,7 @@
 <?php
 // agregar balidacion de datos
-
+require_once("../funciones.php");
+cabeza();
     // define variables and set to empty values
     $nombreErr = $TelErr = $direccionErr = $generoErr = $emailErr = $passwordErr = $rolErr = $campoeErr = $AlereErr =  "";
     $error = "* El Campos es Requeridos";
@@ -153,6 +154,5 @@
           $connection->close();*/
   }else {
     echo $mensaje= "No Estamos dentro";
-    header('location:register_user.php');
   }
   ?>

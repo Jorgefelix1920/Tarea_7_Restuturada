@@ -6,7 +6,9 @@
  *  Funcion:    Corrección de tarea 7 de luego de verificar que la misma no cumplía con lo solicitado por el maestro 
 */
 include ("pages/header.php");
-header('location:include/register_user.php');
+//header('location:include/register_user.php');
+header('location:include/pasaDatoUsuario.php');
+
 ?>
 
 <main role="main">

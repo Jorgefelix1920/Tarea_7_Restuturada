@@ -5,11 +5,14 @@
  *  Fecha:      23/07/2020
  *  Funcion:    Corrección de tarea 7 de luego de verificar que la misma no cumplía con lo solicitado por el maestro 
  */
-include("../pages/header.php");
-require_once('connection.php');
+    //echo $header = file_get_contents("../pages/header.php");
+require_once("../funciones.php");
+cabeza();
+//require_once('connection.php');
 ?>
 
 <?php
+/* #TODO REVISAR LAS CLAVES FORANEAS Y ASEGURARSE DE QUE SE PASAN LOS DATOS CORRECTAMENTE*/
 // define variables and set to empty values
 $nombreErr = $TelErr = $direccionErr = $generoErr = $emailErr = $passwordErr = $rolErr = $campoeErr = $AlereErr =  "";
 $error = "* El Campos es Requeridos";
